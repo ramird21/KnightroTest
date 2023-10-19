@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED6A3FAC2AE1BAE10094DC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A3FAB2AE1BAE10094DC24 /* AppDelegate.swift */; };
+		ED6A3FAE2AE1BAE10094DC24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A3FAD2AE1BAE10094DC24 /* SceneDelegate.swift */; };
+		ED6A3FB02AE1BAE10094DC24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A3FAF2AE1BAE10094DC24 /* ViewController.swift */; };
+		ED6A3FB32AE1BAE10094DC24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6A3FB12AE1BAE10094DC24 /* Main.storyboard */; };
+		ED6A3FB52AE1BAE30094DC24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6A3FB42AE1BAE30094DC24 /* Assets.xcassets */; };
+		ED6A3FB82AE1BAE30094DC24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6A3FB62AE1BAE30094DC24 /* LaunchScreen.storyboard */; };
+		ED6A3FC32AE1BAE30094DC24 /* KnightroTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A3FC22AE1BAE30094DC24 /* KnightroTestTests.swift */; };
+		ED6A3FCD2AE1BAE30094DC24 /* KnightroTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A3FCC2AE1BAE30094DC24 /* KnightroTestUITests.swift */; };
+		ED6A3FCF2AE1BAE30094DC24 /* KnightroTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A3FCE2AE1BAE30094DC24 /* KnightroTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED6A3FBF2AE1BAE30094DC24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6A3FA02AE1BAE10094DC24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6A3FA72AE1BAE10094DC24;
+			remoteInfo = KnightroTest;
+		};
+		ED6A3FC92AE1BAE30094DC24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6A3FA02AE1BAE10094DC24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6A3FA72AE1BAE10094DC24;
+			remoteInfo = KnightroTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED6A3FA82AE1BAE10094DC24 /* KnightroTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnightroTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6A3FAB2AE1BAE10094DC24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED6A3FAD2AE1BAE10094DC24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED6A3FAF2AE1BAE10094DC24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED6A3FB22AE1BAE10094DC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED6A3FB42AE1BAE30094DC24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6A3FB72AE1BAE30094DC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED6A3FB92AE1BAE30094DC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6A3FBE2AE1BAE30094DC24 /* KnightroTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnightroTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6A3FC22AE1BAE30094DC24 /* KnightroTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightroTestTests.swift; sourceTree = "<group>"; };
+		ED6A3FC82AE1BAE30094DC24 /* KnightroTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnightroTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6A3FCC2AE1BAE30094DC24 /* KnightroTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightroTestUITests.swift; sourceTree = "<group>"; };
+		ED6A3FCE2AE1BAE30094DC24 /* KnightroTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightroTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6A3FA52AE1BAE10094DC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A3FBB2AE1BAE30094DC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A3FC52AE1BAE30094DC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED6A3F9F2AE1BAE10094DC24 = {
+			isa = PBXGroup;
+			children = (
+				ED6A3FAA2AE1BAE10094DC24 /* KnightroTest */,
+				ED6A3FC12AE1BAE30094DC24 /* KnightroTestTests */,
+				ED6A3FCB2AE1BAE30094DC24 /* KnightroTestUITests */,
+				ED6A3FA92AE1BAE10094DC24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6A3FA92AE1BAE10094DC24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A3FA82AE1BAE10094DC24 /* KnightroTest.app */,
+				ED6A3FBE2AE1BAE30094DC24 /* KnightroTestTests.xctest */,
+				ED6A3FC82AE1BAE30094DC24 /* KnightroTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6A3FAA2AE1BAE10094DC24 /* KnightroTest */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A3FAB2AE1BAE10094DC24 /* AppDelegate.swift */,
+				ED6A3FAD2AE1BAE10094DC24 /* SceneDelegate.swift */,
+				ED6A3FAF2AE1BAE10094DC24 /* ViewController.swift */,
+				ED6A3FB12AE1BAE10094DC24 /* Main.storyboard */,
+				ED6A3FB42AE1BAE30094DC24 /* Assets.xcassets */,
+				ED6A3FB62AE1BAE30094DC24 /* LaunchScreen.storyboard */,
+				ED6A3FB92AE1BAE30094DC24 /* Info.plist */,
+			);
+			path = KnightroTest;
+			sourceTree = "<group>";
+		};
+		ED6A3FC12AE1BAE30094DC24 /* KnightroTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A3FC22AE1BAE30094DC24 /* KnightroTestTests.swift */,
+			);
+			path = KnightroTestTests;
+			sourceTree = "<group>";
+		};
+		ED6A3FCB2AE1BAE30094DC24 /* KnightroTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A3FCC2AE1BAE30094DC24 /* KnightroTestUITests.swift */,
+				ED6A3FCE2AE1BAE30094DC24 /* KnightroTestUITestsLaunchTests.swift */,
+			);
+			path = KnightroTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6A3FA72AE1BAE10094DC24 /* KnightroTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6A3FD22AE1BAE30094DC24 /* Build configuration list for PBXNativeTarget "KnightroTest" */;
+			buildPhases = (
+				ED6A3FA42AE1BAE10094DC24 /* Sources */,
+				ED6A3FA52AE1BAE10094DC24 /* Frameworks */,
+				ED6A3FA62AE1BAE10094DC24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnightroTest;
+			productName = KnightroTest;
+			productReference = ED6A3FA82AE1BAE10094DC24 /* KnightroTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6A3FBD2AE1BAE30094DC24 /* KnightroTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6A3FD52AE1BAE30094DC24 /* Build configuration list for PBXNativeTarget "KnightroTestTests" */;
+			buildPhases = (
+				ED6A3FBA2AE1BAE30094DC24 /* Sources */,
+				ED6A3FBB2AE1BAE30094DC24 /* Frameworks */,
+				ED6A3FBC2AE1BAE30094DC24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6A3FC02AE1BAE30094DC24 /* PBXTargetDependency */,
+			);
+			name = KnightroTestTests;
+			productName = KnightroTestTests;
+			productReference = ED6A3FBE2AE1BAE30094DC24 /* KnightroTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED6A3FC72AE1BAE30094DC24 /* KnightroTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6A3FD82AE1BAE30094DC24 /* Build configuration list for PBXNativeTarget "KnightroTestUITests" */;
+			buildPhases = (
+				ED6A3FC42AE1BAE30094DC24 /* Sources */,
+				ED6A3FC52AE1BAE30094DC24 /* Frameworks */,
+				ED6A3FC62AE1BAE30094DC24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6A3FCA2AE1BAE30094DC24 /* PBXTargetDependency */,
+			);
+			name = KnightroTestUITests;
+			productName = KnightroTestUITests;
+			productReference = ED6A3FC82AE1BAE30094DC24 /* KnightroTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6A3FA02AE1BAE10094DC24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ED6A3FA72AE1BAE10094DC24 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					ED6A3FBD2AE1BAE30094DC24 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = ED6A3FA72AE1BAE10094DC24;
+					};
+					ED6A3FC72AE1BAE30094DC24 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = ED6A3FA72AE1BAE10094DC24;
+					};
+				};
+			};
+			buildConfigurationList = ED6A3FA32AE1BAE10094DC24 /* Build configuration list for PBXProject "KnightroTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6A3F9F2AE1BAE10094DC24;
+			productRefGroup = ED6A3FA92AE1BAE10094DC24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6A3FA72AE1BAE10094DC24 /* KnightroTest */,
+				ED6A3FBD2AE1BAE30094DC24 /* KnightroTestTests */,
+				ED6A3FC72AE1BAE30094DC24 /* KnightroTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6A3FA62AE1BAE10094DC24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A3FB82AE1BAE30094DC24 /* LaunchScreen.storyboard in Resources */,
+				ED6A3FB52AE1BAE30094DC24 /* Assets.xcassets in Resources */,
+				ED6A3FB32AE1BAE10094DC24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A3FBC2AE1BAE30094DC24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A3FC62AE1BAE30094DC24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6A3FA42AE1BAE10094DC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A3FB02AE1BAE10094DC24 /* ViewController.swift in Sources */,
+				ED6A3FAC2AE1BAE10094DC24 /* AppDelegate.swift in Sources */,
+				ED6A3FAE2AE1BAE10094DC24 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A3FBA2AE1BAE30094DC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A3FC32AE1BAE30094DC24 /* KnightroTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A3FC42AE1BAE30094DC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6A3FCF2AE1BAE30094DC24 /* KnightroTestUITestsLaunchTests.swift in Sources */,
+				ED6A3FCD2AE1BAE30094DC24 /* KnightroTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED6A3FC02AE1BAE30094DC24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6A3FA72AE1BAE10094DC24 /* KnightroTest */;
+			targetProxy = ED6A3FBF2AE1BAE30094DC24 /* PBXContainerItemProxy */;
+		};
+		ED6A3FCA2AE1BAE30094DC24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6A3FA72AE1BAE10094DC24 /* KnightroTest */;
+			targetProxy = ED6A3FC92AE1BAE30094DC24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED6A3FB12AE1BAE10094DC24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6A3FB22AE1BAE10094DC24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED6A3FB62AE1BAE30094DC24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6A3FB72AE1BAE30094DC24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6A3FD02AE1BAE30094DC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6A3FD12AE1BAE30094DC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6A3FD32AE1BAE30094DC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KnightroTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.KnightroTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6A3FD42AE1BAE30094DC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KnightroTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.KnightroTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED6A3FD62AE1BAE30094DC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.KnightroTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnightroTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KnightroTest";
+			};
+			name = Debug;
+		};
+		ED6A3FD72AE1BAE30094DC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.KnightroTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnightroTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KnightroTest";
+			};
+			name = Release;
+		};
+		ED6A3FD92AE1BAE30094DC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.KnightroTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KnightroTest;
+			};
+			name = Debug;
+		};
+		ED6A3FDA2AE1BAE30094DC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.KnightroTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KnightroTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6A3FA32AE1BAE10094DC24 /* Build configuration list for PBXProject "KnightroTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6A3FD02AE1BAE30094DC24 /* Debug */,
+				ED6A3FD12AE1BAE30094DC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6A3FD22AE1BAE30094DC24 /* Build configuration list for PBXNativeTarget "KnightroTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6A3FD32AE1BAE30094DC24 /* Debug */,
+				ED6A3FD42AE1BAE30094DC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6A3FD52AE1BAE30094DC24 /* Build configuration list for PBXNativeTarget "KnightroTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6A3FD62AE1BAE30094DC24 /* Debug */,
+				ED6A3FD72AE1BAE30094DC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6A3FD82AE1BAE30094DC24 /* Build configuration list for PBXNativeTarget "KnightroTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6A3FD92AE1BAE30094DC24 /* Debug */,
+				ED6A3FDA2AE1BAE30094DC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6A3FA02AE1BAE10094DC24 /* Project object */;
+}
